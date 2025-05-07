@@ -1,6 +1,5 @@
 import java.util.Random;
 
-// La clase Wizard extiende Character e implementa la interfaz Attacker
 public class Wizard extends Character implements Attacker {
     // Atributos privados específicos de los magos
     private int mana;
