@@ -1,8 +1,10 @@
+package src;
+
 import java.util.Scanner;
 
 public class BattleSimulator {
 
-    // Método para crear un Warrior con nombre y atributos aleatorios o personalizados
+    // Metodo para crear un Warrior con nombre y atributos aleatorios o personalizados
     public static Warrior createWarrior() {
         Scanner scanner = new Scanner(System.in);
 
