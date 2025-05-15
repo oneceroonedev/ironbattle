@@ -1,3 +1,5 @@
+package src;
+
 import java.util.Random;
 
 public class Wizard extends Character implements Attacker {

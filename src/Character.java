@@ -1,6 +1,8 @@
+package src;
+
 import java.util.UUID;
 
-public abstract class Character {
+public abstract class Character implements Attacker {
     private String id;
     private String name;
     private int hp;
