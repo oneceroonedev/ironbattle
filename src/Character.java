@@ -1,5 +1,3 @@
-package src;
-
 import java.util.UUID;
 
 public abstract class Character implements Attacker {
