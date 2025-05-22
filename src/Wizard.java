@@ -1,6 +1,8 @@
+
 import java.util.Random;
 
 public class Wizard extends Character implements Attacker {
+
     // Atributos privados específicos de los magos
     private int mana;
     private int inteligencia;
@@ -50,16 +52,16 @@ public class Wizard extends Character implements Attacker {
 
     // Lógica para lanzar Fireball
     private void lanzarFireball(Character objetivo) {
-        System.out.println(getName() + " lanza una Fireball a " + objetivo.getName() +
-                " causando " + inteligencia + " de daño.");
+        System.out.println(getName() + " lanza una Fireball a " + objetivo.getName()
+                + " causando " + inteligencia + " de daño.");
         objetivo.setHp(objetivo.getHp() - inteligencia);
         mana -= 5;
     }
 
     // Lógica para golpear con el bastón
     private void golpearConBaston(Character objetivo) {
-        System.out.println(getName() + " golpea con su bastón a " + objetivo.getName() +
-                " causando 2 de daño.");
+        System.out.println(getName() + " golpea con su bastón a " + objetivo.getName()
+                + " causando 2 de daño.");
         objetivo.setHp(objetivo.getHp() - 2);
         mana += 1;  // Recupera 1 de maná
     }

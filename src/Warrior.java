@@ -1,6 +1,8 @@
+
 import java.util.Random;
 
 public class Warrior extends Character implements Attacker {
+
     private int stamina;
     private int strength;
     private Random rand = new Random();
@@ -75,8 +77,8 @@ public class Warrior extends Character implements Attacker {
         character.setHp(character.getHp() - damage);
 
         // Resultado
-        System.out.println(this.getName() + " usa " + attackType + " contra " + character.getName() +
-                " causando " + damage + " de daño. (Puntos de vida de " + character.getName() + ": " + character.getHp() + ")");
+        System.out.println(this.getName() + " usa " + attackType + " contra " + character.getName()
+                + " causando " + damage + " de daño. (Puntos de vida de " + character.getName() + ": " + character.getHp() + ")");
 
     }
 }
